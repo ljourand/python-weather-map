@@ -8,11 +8,17 @@ The program is using the open weather map api: https://openweathermap.org/
 
 You should have an open weather map api key and put it in .env file in the project with the value API_KEY.
 
+You can also set the unit for the temperature in the .env file with the value UNITS, the possible values are:
+- "standard" for kelvins
+- "metric" for celsius
+- "imperial" for fahrenheit
+
 # Run the program
 
 ## With pipenv
 
 To run the program you have to run the command: ```pipenv run py main.py```
+
 more info on pipenv: https://packaging.python.org/en/latest/tutorials/managing-dependencies/#managing-dependencies
 
 ## Without pipenv

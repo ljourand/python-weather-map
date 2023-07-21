@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 LANG = "en"
-UNITS = os.getenv('UNITS') or "metric"
+UNITS = os.getenv('UNITS') or "metric" # "standard", "metric" or "imperial"
 API_KEY = os.getenv('API_KEY')
 
 def getNameOfCity():
